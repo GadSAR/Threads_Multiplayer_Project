@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/sarga/Documents/IntelliJ projects/Circle_Eater__/src</OriginalElement>
+  <nodes>
+    <node x="884.8622480239385" y="1982.0">Multiplayer.DataClient</node>
+    <node x="2696.840143703551" y="1716.5000000000002">Panels.GamePanel</node>
+    <node x="5983.154033217754" y="1430.5">Panels.GameMenu</node>
+    <node x="4944.154188289239" y="1958.4999999999986">Manage.Fps</node>
+    <node x="236.86428157450905" y="1694.5">Panels.GameOver</node>
+    <node x="3714.8071770271226" y="1971.0000000000005">Multiplayer.DataServer</node>
+    <node x="4258.652035381818" y="748.5">Resources.Resource</node>
+    <node x="2421.8441799899183" y="1727.5000000000014">Objects.BallPlayer</node>
+    <node x="4018.7887248396264" y="1969.4999999999998">Music.MusicWavPlayer</node>
+    <node x="5190.166201926705" y="1925.4999999999995">Multiplayer.Server</node>
+    <node x="560.8628725731468" y="1584.4999999999998">Panels.GameMultiplayer</node>
+    <node x="3390.8297130888523" y="1870.500000000003">Panels.GameHowToPlay</node>
+    <node x="2033.8496621403622" y="1903.4999999999998">Music.MusicController</node>
+    <node x="3069.832505390491" y="1617.5000000000002">Objects.BallBot</node>
+    <node x="4615.267604665162" y="1166.4999999999995">Manage.GameStateManager</node>
+    <node x="1761.8543075048306" y="1947.5000000000002">Music.MusicThread</node>
+    <node x="1437.8578533610555" y="1903.4999999999995">Multiplayer.Client</node>
+    <node x="-87.13607214721952" y="1430.4999999999998">Panels.GameSettings</node>
+    <node x="1186.8617527955148" y="1925.499999999999">Manage.GameState</node>
+    <node x="5514.157669682797" y="2004.0000000000002">Main</node>
+    <node x="5728.15969623057" y="1958.4999999999995">Manage.GameMode</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Multiplayer.Client" target="Manage.GameStateManager" relationship="TO_ONE">
+      <point x="1.4663894444311154E-4" y="-139.99999999999955" />
+      <point x="1569.358" y="1586.0" />
+      <point x="4215.289000000001" y="1586.0" />
+      <point x="4215.289000000001" y="3356.0" />
+      <point x="4585.0" y="3356.0" />
+      <point x="4585.0" y="2043.5" />
+      <point x="-133.99960466516222" y="4.547473508864641E-13" />
+    </edge>
+    <edge source="Manage.GameStateManager" target="Multiplayer.Client" relationship="TO_ONE">
+      <point x="45.000395334837776" y="-877.0" />
+      <point x="4794.268" y="686.0" />
+      <point x="1554.358" y="686.0" />
+      <point x="-14.999853361055557" y="-140.0" />
+    </edge>
+    <edge source="Panels.GameHowToPlay" target="Manage.GameStateManager" relationship="TO_ONE">
+      <point x="2.8691114766843384E-4" y="-173.0" />
+      <point x="3522.33" y="1586.0" />
+      <point x="4215.289000000001" y="1586.0" />
+      <point x="4215.289000000001" y="3356.0" />
+      <point x="4585.0" y="3356.0" />
+      <point x="4585.0" y="2043.5" />
+      <point x="-133.99960466516222" y="4.547473508864641E-13" />
+    </edge>
+    <edge source="Manage.GameStateManager" target="Panels.GameHowToPlay" relationship="TO_ONE">
+      <point x="0.0" y="877.0" />
+      <point x="4749.267604665162" y="2930.4999999999995" />
+      <point x="3522.3297130888523" y="2930.4999999999995" />
+      <point x="0.0" y="172.99999999999977" />
+    </edge>
+    <edge source="Resources.Resource" target="Manage.GameStateManager" relationship="TO_ONE">
+      <point x="147.99996461818228" y="0.0" />
+      <point x="-133.99960466516222" y="4.547473508864641E-13" />
+    </edge>
+    <edge source="Manage.GameStateManager" target="Resources.Resource" relationship="TO_ONE">
+      <point x="-134.0" y="15.000000000000455" />
+      <point x="148.0" y="15.0" />
+    </edge>
+    <edge source="Panels.GameMenu" target="Manage.GameStateManager" relationship="TO_ONE">
+      <point x="-131.5" y="-605.5" />
+      <point x="5037.0" y="1438.0" />
+      <point x="5037.0" y="1149.0" />
+      <point x="4585.0" y="1149.0" />
+      <point x="4585.0" y="2043.5" />
+      <point x="-133.99960466516222" y="4.547473508864641E-13" />
+    </edge>
+    <edge source="Manage.GameStateManager" target="Panels.GameMenu" relationship="TO_ONE">
+      <point x="134.0" y="195.5" />
+      <point x="-131.5" y="195.49999999999955" />
+    </edge>
+    <edge source="Manage.GameStateManager" target="Multiplayer.Server" relationship="TO_ONE">
+      <point x="134.0" y="96.99999999999909" />
+      <point x="-131.5" y="96.99999999999909" />
+    </edge>
+    <edge source="Multiplayer.Server" target="Manage.GameStateManager" relationship="TO_ONE">
+      <point x="-131.5" y="-107.99999999999955" />
+      <point x="5037.0" y="1935.5" />
+      <point x="5037.0" y="1149.0" />
+      <point x="4585.0" y="1149.0" />
+      <point x="4585.0" y="2043.5" />
+      <point x="-133.99960466516222" y="4.547473508864641E-13" />
+    </edge>
+    <edge source="Music.MusicThread" target="Music.MusicWavPlayer" relationship="CREATE">
+      <point x="-15.0" y="95.99999999999977" />
+      <point x="1852.3543075048306" y="2689.0" />
+      <point x="4123.288724839626" y="2689.0" />
+      <point x="15.0" y="74.00000000000023" />
+    </edge>
+    <edge source="Manage.Fps" target="Manage.GameStateManager" relationship="TO_ONE">
+      <point x="-19.154188289238846" y="-84.99999999999864" />
+      <point x="5017.5" y="1330.5" />
+      <point x="5037.0" y="1330.5" />
+      <point x="5037.0" y="1149.0" />
+      <point x="4585.0" y="1149.0" />
+      <point x="4585.0" y="2043.5" />
+      <point x="-133.99960466516222" y="4.547473508864641E-13" />
+    </edge>
+    <edge source="Manage.GameStateManager" target="Multiplayer.Server" relationship="CREATE">
+      <point x="134.0" y="106.49999999999909" />
+      <point x="-131.5" y="106.49999999999909" />
+    </edge>
+    <edge source="Panels.GamePanel" target="Manage.GameStateManager" relationship="TO_ONE">
+      <point x="-1.4370355074788677E-4" y="-327.0" />
+      <point x="2852.84" y="1586.0" />
+      <point x="4215.289000000001" y="1586.0" />
+      <point x="4215.289000000001" y="3356.0" />
+      <point x="4585.0" y="3356.0" />
+      <point x="4585.0" y="2043.5" />
+      <point x="-133.99960466516222" y="4.547473508864641E-13" />
+    </edge>
+    <edge source="Manage.GameStateManager" target="Panels.GamePanel" relationship="TO_ONE">
+      <point x="3.953348377763177E-4" y="-876.9999999999995" />
+      <point x="4749.268" y="731.0" />
+      <point x="3317.0" y="731.0" />
+      <point x="3317.0" y="1602.0" />
+      <point x="2867.84" y="1602.0" />
+      <point x="14.999856296449252" y="-327.0" />
+    </edge>
+    <edge source="Manage.GameStateManager" target="Music.MusicController" relationship="CREATE">
+      <point x="75.00039533483778" y="-877.0" />
+      <point x="4824.268" y="656.0" />
+      <point x="2197.349662140362" y="656.0" />
+      <point x="0.0" y="-140.0" />
+    </edge>
+    <edge source="Manage.GameStateManager" target="Panels.GameOver" relationship="CREATE">
+      <point x="105.0" y="877.0" />
+      <point x="4854.267604665162" y="3476.0" />
+      <point x="368.36428157450905" y="3476.0" />
+      <point x="0.0" y="349.0" />
+    </edge>
+    <edge source="Manage.GameStateManager" target="Manage.GameState" relationship="TO_ONE">
+      <point x="60.0" y="877.0" />
+      <point x="4809.267604665162" y="3431.0" />
+      <point x="1281.8617527955148" y="3431.0" />
+      <point x="0.0" y="118.0" />
+    </edge>
+    <edge source="Manage.GameStateManager" target="Panels.GameSettings" relationship="CREATE">
+      <point x="90.0" y="877.0" />
+      <point x="4839.267604665162" y="3461.0" />
+      <point x="29.363927852780478" y="3461.0" />
+      <point x="-15.0" y="613.0000000000002" />
+    </edge>
+    <edge source="Manage.GameStateManager" target="Panels.GameMenu" relationship="CREATE">
+      <point x="134.0" y="210.5" />
+      <point x="-131.5" y="210.49999999999955" />
+    </edge>
+    <edge source="Manage.GameStateManager" target="Manage.GameMode" relationship="TO_ONE">
+      <point x="134.0" y="180.5" />
+      <point x="5825.15969623057" y="2223.9999999999995" />
+      <point x="0.0" y="85.0" />
+    </edge>
+    <edge source="Manage.GameStateManager" target="Panels.GameHowToPlay" relationship="CREATE">
+      <point x="-134.0" y="0.0" />
+      <point x="4605.267604665162" y="2043.4999999999995" />
+      <point x="4605.267604665162" y="1860.5000000000027" />
+      <point x="3522.3297130888523" y="1860.5000000000027" />
+      <point x="0.0" y="-173.00000000000023" />
+    </edge>
+    <edge source="Panels.GameMultiplayer" target="Manage.GameStateManager" relationship="TO_ONE">
+      <point x="1.2742685322564284E-4" y="-458.9999999999998" />
+      <point x="692.363" y="1493.0" />
+      <point x="2541.0" y="1493.0" />
+      <point x="2541.0" y="1586.0" />
+      <point x="4215.289000000001" y="1586.0" />
+      <point x="4215.289000000001" y="3356.0" />
+      <point x="4585.0" y="3356.0" />
+      <point x="4585.0" y="2043.5" />
+      <point x="-133.99960466516222" y="4.547473508864641E-13" />
+    </edge>
+    <edge source="Manage.GameStateManager" target="Panels.GameMultiplayer" relationship="TO_ONE">
+      <point x="30.0" y="877.0" />
+      <point x="4779.267604665162" y="3401.0" />
+      <point x="692.3628725731468" y="3401.0" />
+      <point x="0.0" y="459.0000000000002" />
+    </edge>
+    <edge source="Manage.GameStateManager" target="Music.MusicController" relationship="TO_ONE">
+      <point x="72.00019766741843" y="-877.0" />
+      <point x="4821.267802332581" y="1154.833333333333" />
+      <point x="2370.849662140362" y="1154.833333333333" />
+      <point x="2370.849662140362" y="2043.4999999999998" />
+      <point x="163.5" y="0.0" />
+    </edge>
+    <edge source="Music.MusicController" target="Music.MusicThread" relationship="CREATE">
+      <point x="-163.5" y="15.000000000000455" />
+      <point x="105.5" y="15.0" />
+    </edge>
+    <edge source="Multiplayer.Server" target="Multiplayer.DataServer" relationship="CREATE">
+      <point x="0.0" y="-118.0" />
+      <point x="5321.666201926705" y="1915.4999999999995" />
+      <point x="3836.3071770271226" y="1915.4999999999995" />
+      <point x="0.0" y="-72.5" />
+    </edge>
+    <edge source="Panels.GamePanel" target="Objects.BallBot" relationship="CREATE">
+      <point x="156.0" y="0.0" />
+      <point x="-130.0" y="0.0" />
+    </edge>
+    <edge source="Panels.GamePanel" target="Objects.BallPlayer" relationship="TO_ONE">
+      <point x="-156.0" y="1.1368683772161603E-12" />
+      <point x="107.0" y="0.0" />
+    </edge>
+    <edge source="Objects.BallPlayer" target="Panels.GamePanel" relationship="TO_ONE">
+      <point x="-1.7998991825152189E-4" y="-316.0" />
+      <point x="2528.844" y="1602.0" />
+      <point x="2867.84" y="1602.0" />
+      <point x="14.999856296449252" y="-327.0" />
+    </edge>
+    <edge source="Main" target="Manage.GameStateManager" relationship="CREATE">
+      <point x="0.0" y="39.49999999999977" />
+      <point x="5590.657669682797" y="2208.9999999999995" />
+      <point x="134.0" y="165.5" />
+    </edge>
+    <edge source="Manage.GameStateManager" target="Panels.GamePanel" relationship="CREATE">
+      <point x="62.00019766741843" y="-877.0" />
+      <point x="4811.267802332581" y="1160.6666666666663" />
+      <point x="2686.840143703551" y="1160.6666666666663" />
+      <point x="2686.840143703551" y="2043.5000000000002" />
+      <point x="-156.0" y="0.0" />
+    </edge>
+    <edge source="Manage.GameStateManager" target="Panels.GameSettings" relationship="TO_ONE">
+      <point x="75.0" y="877.0" />
+      <point x="4824.267604665162" y="3446.0" />
+      <point x="44.36392785278048" y="3446.0" />
+      <point x="0.0" y="613.0000000000002" />
+    </edge>
+    <edge source="Panels.GameSettings" target="Manage.GameStateManager" relationship="TO_ONE">
+      <point x="131.5" y="2.2737367544323206E-13" />
+      <point x="219.364" y="2043.5" />
+      <point x="219.364" y="1493.0" />
+      <point x="2541.0" y="1493.0" />
+      <point x="2541.0" y="1586.0" />
+      <point x="4215.289000000001" y="1586.0" />
+      <point x="4215.289000000001" y="3356.0" />
+      <point x="4585.0" y="3356.0" />
+      <point x="4585.0" y="2043.5" />
+      <point x="-133.99960466516222" y="4.547473508864641E-13" />
+    </edge>
+    <edge source="Manage.GameStateManager" target="Resources.Resource" relationship="CREATE">
+      <point x="-134.0" y="-9.499999999999545" />
+      <point x="148.0" y="-9.5" />
+    </edge>
+    <edge source="Panels.GameOver" target="Manage.GameStateManager" relationship="TO_ONE">
+      <point x="-2.815745090494204E-4" y="-349.0" />
+      <point x="368.364" y="1493.0" />
+      <point x="2541.0" y="1493.0" />
+      <point x="2541.0" y="1586.0" />
+      <point x="4215.289000000001" y="1586.0" />
+      <point x="4215.289000000001" y="3356.0" />
+      <point x="4585.0" y="3356.0" />
+      <point x="4585.0" y="2043.5" />
+      <point x="-133.99960466516222" y="4.547473508864641E-13" />
+    </edge>
+    <edge source="Music.MusicController" target="Music.MusicThread" relationship="TO_ONE">
+      <point x="-163.5" y="4.547473508864641E-13" />
+      <point x="105.5" y="0.0" />
+    </edge>
+    <edge source="Manage.GameStateManager" target="Panels.GameOver" relationship="TO_ONE">
+      <point x="120.0" y="877.0" />
+      <point x="4869.267604665162" y="3491.0" />
+      <point x="383.36428157450905" y="3491.0" />
+      <point x="15.0" y="349.0" />
+    </edge>
+    <edge source="Panels.GamePanel" target="Objects.BallPlayer" relationship="CREATE">
+      <point x="-156.0" y="15.000000000001137" />
+      <point x="107.0" y="15.0" />
+    </edge>
+    <edge source="Multiplayer.Client" target="Multiplayer.DataClient" relationship="CREATE">
+      <point x="-131.5" y="-135.50000000000045" />
+      <point x="1005.3622480239385" y="1907.999999999999" />
+      <point x="0.0" y="-61.5" />
+    </edge>
+    <edge source="Manage.GameStateManager" target="Manage.Fps" relationship="CREATE">
+      <point x="134.0" y="-9.094947017729282E-13" />
+      <point x="-92.5" y="0.0" />
+    </edge>
+    <edge source="Panels.GamePanel" target="Objects.BallBot" relationship="TO_MANY">
+      <point x="156.0" y="15.0" />
+      <point x="-130.0" y="15.0" />
+    </edge>
+    <edge source="Manage.GameStateManager" target="Panels.GameMultiplayer" relationship="CREATE">
+      <point x="45.0" y="877.0" />
+      <point x="4794.267604665162" y="3416.0" />
+      <point x="707.3628725731468" y="3416.0" />
+      <point x="15.0" y="459.0000000000002" />
+    </edge>
+    <edge source="Manage.GameStateManager" target="Multiplayer.Client" relationship="CREATE">
+      <point x="60.000395334837776" y="-877.0" />
+      <point x="4809.268" y="671.0" />
+      <point x="1539.358" y="671.0" />
+      <point x="-29.999853361055557" y="-140.0" />
+    </edge>
+    <edge source="Music.MusicThread" target="Music.MusicWavPlayer" relationship="TO_ONE">
+      <point x="0.0" y="95.99999999999977" />
+      <point x="1867.3543075048306" y="2674.0" />
+      <point x="4108.288724839626" y="2674.0" />
+      <point x="0.0" y="74.00000000000023" />
+    </edge>
+    <edge source="Objects.BallBot" target="Panels.GamePanel" relationship="TO_ONE">
+      <point x="4.946095091327152E-4" y="-426.0" />
+      <point x="3199.833" y="1602.0" />
+      <point x="2867.84" y="1602.0" />
+      <point x="14.999856296449252" y="-327.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.573855324301731" showDependencies="true" x="4060.218964351465" y="1970.8751477824262" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
