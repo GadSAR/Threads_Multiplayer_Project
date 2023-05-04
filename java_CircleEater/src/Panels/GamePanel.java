@@ -6,6 +6,7 @@ import Objects.*;
 import java.awt.*;
 import java.io.IOException;
 import java.util.Random;
+import java.util.stream.IntStream;
 
 import javax.swing.*;
 
@@ -111,11 +112,11 @@ public class GamePanel extends JPanel {
 
     public void unPause() {
         if (moveFlag) {
-            for (int i = 0; i < vec.length; i++) {
+            IntStream.range(0, vec.length).forEach(i -> {
                 synchronized (vec[i]) {
                     vec[i].notify();
                 }
-            }
+            });
             synchronized (player) {
                 player.notify();
             }
